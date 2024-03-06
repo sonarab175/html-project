@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-image: url('./unnamed.jpg');
+      width: 100%;
+      height: 15rem;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #180404;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .product {
+      display: inline-block;
+      margin: 20px;
+      cursor: pointer;
+      text-align: center;
+    }
+    .product img {
+      width: 200px;
+      height: auto;
+    }
+    .product p {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Our E-commerce Store</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+
+
+<div class="search-Keyword">
+    <input type="text" placeholder=" search-Keyword">
+    <button type="button">Search</button>
+</div>
+
+<div class="container" id="home">
+    <h2>Welcome to our E-commerce Store!</h2>
+  <p>Check out our latest products below:</p>
+</div>
+
+<div class="container" id="products">
+  <h2>Products</h2>
+  
+  <div class="product" onclick="window.location.href='Mens Streak Sneakers'">
+    <img src="./WhatsApp Image 2024-03-05 at 4.13.35 PM.jpeg" alt="Mens Streak Sneakers">
+    <p>Mens Streak Sneakers</p>
+    <p>$19.99</p>
+    <button class="tranding-btn">Shop Now</button>
+  </div>
+  
+  <div class="product" onclick="window.location.href='Mens Stylish Mesh Material Sports Shoes'">
+    <img src="./WhatsApp Image 2024-03-05 at 4.13.36 PM (1).jpeg" alt="Mens Stylish Mesh Material Sports Shoes">
+    <p>Mens Stylish Mesh Material Sports Shoes</p>
+    <p>$26.99</p>
+    <button class="tranding-btn">Shop Now</button>
+  </div>
+  
+  <div class="product" onclick="window.location.href='Vector Blast Cricket Shoes'">
+    <img src="./WhatsApp Image 2024-03-05 at 4.13.36 PM.jpeg" alt="Vector Blast Cricket Shoes">
+    <p>Vector Blast Cricket Shoes</p>
+    <p>$25.99</p>
+    <button class="tranding-btn">Shop Now</button>
+  </div>
+
+  <div class="product" onclick="window.location.href='Crystal Lightweight Casual Sneaker Shoes'">
+    <img src="./51qMYJEfdVL._AC_UY1000_.jpg" alt="Crystal Lightweight Casual Sneaker Shoes">
+    <p>Crystal Lightweight Casual Sneaker Shoes</p>
+    <p>$40.99</p>
+    <button class="tranding-btn">Shop Now</button>
+  </div>
+</div>
+
+<div class="container" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: Productinfo@example.com</p>
+  <p>Phone: 9325686970</p>
+</div>
+
+</body>
+</html>
